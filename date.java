@@ -10,13 +10,26 @@ public class date{
 		int year = 2026;
 		
 		//printing variables
-		System.out.print("The current date is ");
+		System.out.print("American format ");
+		System.out.print(":");
 		System.out.print(day);
 		System.out.print(",");
 		System.out.print(month);
 		System.out.print(" ");
 		System.out.print(date);
 		System.out.print(",");
+		System.out.print(" ");
+		System.out.print(year);
+		System.out.println(".");
+		
+		System.out.print("European format ");
+		System.out.print(":");
+		System.out.print(day);
+		System.out.print(" ");
+		System.out.print(date);
+		System.out.print(" ");
+		System.out.print(month);
+		System.out.print(" ");
 		System.out.print(year);
 		System.out.print(".");
 	}
